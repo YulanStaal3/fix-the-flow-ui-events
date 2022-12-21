@@ -1,0 +1,270 @@
+/* Basic style */
+:root {
+  --primary: #fff;
+  --secondary: #050840;
+  --highlight-primary: #7ce7c9;
+  --highlight-secondary: #9d7beb;
+  --radius: 0.5rem;
+  --pill: 2rem;
+  --line: 0.1rem;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 2rem;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2rem;
+  background: var(--secondary);
+}
+section {
+  max-width: 90vw;
+}
+a {
+  display: inline-block;
+  margin: 0.2em;
+  padding: 0.4em 0.8em;
+  background: var(--secondary);
+  color: var(--highlight-primary);
+  border: var(--line) solid var(--highlight-primary);
+  border-radius: var(--pill);
+  font-weight: normal;
+  text-decoration: none;
+}
+a:hover {
+  color: var(--primary);
+  border-color: var(--primary);
+}
+
+/* UI Event Classes */
+
+/* Jump animation on the interaction link */
+a:nth-of-type(12) {
+  position: relative;
+  background: var(--highlight-secondary);
+  color: var(--secondary);
+  border-color: var(--secondary);
+}
+
+.jump {
+  animation-name: jump;
+  animation-timing-function: cubic-bezier(0.28, 0.84, 0.42, 1);
+  animation-duration: 1.2s;
+  animation-iteration-count: 1;
+}
+
+@keyframes jump {
+  0% {
+    transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    transform: scale(1.1, 0.9) translateY(0);
+  }
+  30% {
+    transform: scale(0.9, 1.1) translateY(-5rem) rotate(10deg);
+  }
+  50% {
+    transform: scale(1.05, 0.95) translateY(0);
+  }
+  57% {
+    transform: scale(1, 1) translateY(-0.5rem) rotate(-2deg);
+  }
+  64% {
+    transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    transform: scale(1, 1) translateY(0);
+  }
+}
+
+/* Jouw animaties */
+
+/* eerste animatie */
+
+a:nth-of-type(1) {
+  position: relative;
+  
+}
+
+.rotate {
+  animation-name: rotate;
+  animation-timing-function: cubic-bezier(0.28, 0.84, 0.42, 1);
+  animation-duration: 1.2s;
+  animation-iteration-count: 1;
+  background: hotpink;
+}
+
+@keyframes rotate {
+  0% {
+    transform: scale(1, 1) translateY(0);
+  }
+  50% {
+    transform: scale(2, 2) translateY(0);
+  }
+  100% {
+    transform: scale(1, 1) translateY(0);
+  }
+}
+
+/* tweede animatie */
+
+a:nth-of-type(2) {
+  position: relative;
+}
+
+.orange {
+  background-color: orange;
+}
+
+/* derde animatie */
+
+a:nth-of-type(3) {
+  position: relative;
+}
+
+.violet {
+  background-color: violet;
+}
+
+/* vierde animatie */
+
+a:nth-of-type(4) {
+  position: relative;
+  display: inline-block;
+}
+
+@keyframes spinning {
+  50% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.spinning {
+  background-color: red;
+  animation: rotation 2s infinite linear;
+  animation-name: spinning;
+  animation-iteration-count: 1;
+}
+
+/* vijfde animatie */
+
+a:nth-of-type(5) {
+  position: relative;
+  display: inline-block;
+}
+
+@keyframes shaking {
+  0% { transform: translate(0, 0) rotate(0deg); }
+  25% { transform: translate(5px, 5px) rotate(5deg); }
+  50% { transform: translate(0, 0) rotate(0eg); }
+  75% { transform: translate(-5px, 5px) rotate(-5deg); }
+  100% { transform: translate(0, 0) rotate(0deg); }
+}
+
+.shaking {
+  background-color: aqua;
+  animation: tilt-shaking 0.3s infinite;
+  animation-name: shaking;
+}
+
+/* zesde animatie */
+
+a:nth-of-type(6) {
+  position: relative;
+  display: inline-block;
+}
+
+@keyframes vertical-shaking {
+  0% { transform: translateY(0) }
+  25% { transform: translateY(5px) }
+  50% { transform: translateY(-5px) }
+  75% { transform: translateY(5px) }
+  100% { transform: translateY(0) }
+}
+
+ .vertical-shaking {
+  background-color: purple;
+  animation: vertical-shaking 1.5s infinite;
+  animation-name: vertical-shaking;
+ }
+
+ /* zevende animatie */
+
+ a:nth-of-type(7) {
+  position: relative;
+  display: inline-block;
+}
+
+ @keyframes horizontal {
+  0% { transform: translateX(0) }
+  25% { transform: translateX(5px) }
+  50% { transform: translateX(-5px) }
+  75% { transform: translateX(5px) }
+  100% { transform: translateX(0) }
+ }
+
+ .horizontal {
+  background-color: yellow;
+  animation: horizontal-shaking 1.5s infinite;
+  animation-name: horizontal;
+ }
+
+ /* achtste animatie */
+
+ a:nth-of-type(8) {
+  position: relative;
+  display: inline-block;
+}
+
+@keyframes disco {
+  0%   {background-color: red;}
+  25%  {background-color: hotpink;}
+  50%  {background-color: blue;}
+  100% {background-color: pink;}
+}
+
+.disco {
+  animation: disco 1.5s infinite;
+  animation-name: disco;
+ }
+
+ /* negende animatie */
+
+ a:nth-of-type(9) {
+  position: relative;
+  display: inline-block;
+}
+
+ @keyframes square {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:pink; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+.square {
+  animation-name: square;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+ }
+
+ /* tiende animatie */
+
+ a:nth-of-type(10) {
+  position: relative;
+  display: inline-block;
+}
+
+.move {
+  background: deeppink;
+  animation-name: move;
+  width: 300px;
+ }
+
+ 
+ 
