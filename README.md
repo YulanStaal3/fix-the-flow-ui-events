@@ -14,9 +14,9 @@ Bekijk hier mijn tien buttons: https://yulanstaal3.github.io/fix-the-flow-ui-eve
 
 CSS:
 
-animation-name
-animation-duration
-@keyframes
+- animation-name
+- animation-duration
+- @keyframes
 
 JavaScript:
 
