@@ -12,12 +12,13 @@ Bekijk hier mijn tien buttons: https://yulanstaal3.github.io/fix-the-flow-ui-eve
 
 ## Experimenten
 
-CSS :
+CSS:
 
 animation-name
 animation-duration
 @keyframes
-JavaScript 👩🏿‍💻:
+
+JavaScript:
 
 document.querySelector
 .addEventListener
