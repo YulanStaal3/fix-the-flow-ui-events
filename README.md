@@ -7,11 +7,21 @@ UI events
 
 ## Beschrijving
 Ik heb op tien buttons animaties toegepast met behulp van CSS en JavaScript.
-<!-- Voeg een link toe naar Github Pages 🌐-->
+
+Bekijk hier mijn tien buttons: https://yulanstaal3.github.io/fix-the-flow-ui-events/
 
 ## Experimenten
-<!-- In de Experimenten beschrijf je wat je per experimnet hebt gedaan en documenteer je de code aan de hand van voorbeelden -->
-<!-- Voeg een mooie poster visual toe 📸 per experiment -->
+
+CSS :
+
+animation-name
+animation-duration
+@keyframes
+JavaScript 👩🏿‍💻:
+
+document.querySelector
+.addEventListener
+classList.toggle
 
 
 ![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
