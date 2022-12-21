@@ -3,8 +3,10 @@
 # Titel
 UI events 
 
+![Schermafbeelding 2022-12-21 om 11 12 35](https://user-images.githubusercontent.com/112861488/208880634-73fc2e83-befc-43db-8538-9b1d977eb074.jpeg)
+
 ## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
+Ik heb op tien buttons animaties toegepast met behulp van CSS en JavaScript.
 <!-- Voeg een link toe naar Github Pages 🌐-->
 
 ## Experimenten
