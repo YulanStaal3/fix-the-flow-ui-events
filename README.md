@@ -20,9 +20,9 @@ CSS:
 
 JavaScript:
 
-document.querySelector
-.addEventListener
-classList.toggle
+- document.querySelector
+- .addEventListener
+- classList.toggle
 
 
 ![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
